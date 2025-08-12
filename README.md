@@ -27,6 +27,26 @@ seaborn>=0.11.0
 
 </details>
 
+## datas
+LUNA16 Dataset: Official download link: https://luna16.grand-challenge.org/Data/  
+TianChi Dataset: Official download link: https://tianchi.aliyun.com/competition/entrance/231601.
+``` shell
+Save LUNA16 Dataset to: ./data/LUNA16/
+After downloading, your data directory should be organized as:
+
+ LUNA16/
+├── images/               # Contains all CT scan images
+│   ├── train/            # Training set images
+│   └── val/              # Validation set images
+├── labels/               # Contains annotation files
+│   ├── images/           # Training set annotations
+│   └── val/              # Validation set annotations
+├── train.txt             # List of training image paths
+└── valid.txt             # List of validation image paths
+```
+
+
+
 ## train
 
 
