@@ -59,6 +59,6 @@ python train.py --workers 8 --device 0 --batch-size 8 --data data/luna16.yaml --
 
 ``` shell
 
-python test.py --data data/luna16.yaml --img 640 --batch 8 --device 0 --weights best.pt
+python test.py --data data/luna16.yaml --img 640 --batch 8 --device 0 --weights runs/train/best.pt
 
 ```
